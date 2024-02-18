@@ -68,9 +68,7 @@
   
     // Background
     "background.enabled": true,
-    "background.useDefault": false,
     "background.useFront": false,
-    "background.loop": false,
     "background.style": {
       "background-size": "cover",
       "width": "100vw",
