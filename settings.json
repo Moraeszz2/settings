@@ -1,7 +1,8 @@
 {
-    "diffEditor.ignoreTrimWhitespace": false,
+    "diffEditor.ignoreTrimWhitespace": true,
     "security.workspace.trust.untrustedFiles": "open",
     "symbols.hidesExplorerArrows": false,
+    "window.zoomLevel": -1,
     
     // Explore
     "explorer.confirmDelete": false,
@@ -12,9 +13,6 @@
       ".env": ".env*"
     },
   
-    // Live Server
-    "liveServer.settings.donotVerifyTags": true,
-    "liveServer.settings.donotShowInfoMsg": true,
   
     // Terminal 
     "terminal.integrated.enableMultiLinePasteWarning": false,
@@ -26,9 +24,32 @@
     "go.toolsManagement.autoUpdate": true,
   
     // Workbench
+    "workbench.colorCustomizations": {
+      "terminal.background": "#000000",
+      "terminal.foreground": "#D9D8D8",
+      "terminalCursor.background": "#51016b",
+      "terminalCursor.foreground": "#51016b",
+      "terminal.ansiBlack": "#231F20",
+      "terminal.ansiBlue": "#009DDC",
+      "terminal.ansiBrightBlack": "#737171",
+      "terminal.ansiBrightBlue": "#009DDC",
+      "terminal.ansiBrightCyan": "#85CEBC",
+      "terminal.ansiBrightGreen": "#00853E",
+      "terminal.ansiBrightMagenta": "#98005D",
+      "terminal.ansiBrightRed": "#EE2E24",
+      "terminal.ansiBrightWhite": "#51016b",
+      "terminal.ansiBrightYellow": "#51016b",
+      "terminal.ansiCyan": "#85CEBC",
+      "terminal.ansiGreen": "#00853E",
+      "terminal.ansiMagenta": "#98005D",
+      "terminal.ansiRed": "#EE2E24",
+      "terminal.ansiWhite": "#51016b",
+      "terminal.ansiYellow": "#FFD204"
+    },
     "workbench.startupEditor": "newUntitledFile",
-    "workbench.editorAssociations": {"*.json": "default"},
-    "workbench.iconTheme": "symbols",
+    "workbench.editorAssociations": {
+      "*.json": "default"
+    },
     "workbench.editor.empty.hint": "hidden",
     "workbench.editor.labelFormat": "short",
     "workbench.colorCustomizations": {
@@ -58,44 +79,72 @@
     "editor.fontFamily": "JetBrains Mono",
     "editor.fontSize": 14,
     "editor.renderLineHighlight": "gutter",
+    "editor.fontLigatures": true,
     "editor.semanticHighlighting.enabled": false,
     "editor.minimap.enabled": false,
-    "editor.fontLigatures": true,
+    "editor.unicodeHighlight.allowedCharacters": {"﻿": true},
     "[json]": {"editor.defaultFormatter": "vscode.json-language-features"},
-  
+    
     // Breads
     "breadcrumbs.enabled": false,
   
     // Background
     "background.enabled": true,
+    "background.useDefault": false,
     "background.useFront": false,
+    "background.loop": false,
     "background.style": {
       "background-size": "cover",
-      "width": "100vw",
-      "height": "100vh",
-      "opacity": 0.04,
+      "opacity": 0.1,
+      "position": "absolute",
+      "z-index": "-1",
+      "top": "50%",
+      "left": "50%",
+      "transform": "translate(-50%, -50%)"
     },
     "background.customImages": ["file:///C:/Users/gui62/Downloads/solo-leveling-sung.jpg"],
-  
+    
     // Git
-    "git.enableSmartCommit": true,  
+    "git.enableSmartCommit": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "redhat.telemetry.enabled": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "symbols.hidesExplorerArrows": false,
+    "window.zoomLevel": -1,
+  
     "git.confirmSync": false,
     "git.autofetch": true,
-    "git.ignoreRebaseWarning": true, 
+    "git.ignoreRebaseWarning": true,
+  
+    
     "js/ts.implicitProjectConfig.checkJs": true,
     "debug.onTaskErrors": "debugAnyway",
     
-    // Vscode PETS
-    "vscode-pets.petColor": "black",
-    "vscode-pets.petSize": "medium",
-    "vscode-pets.theme": "castle",
-    "vscode-pets.throwBallWithMouse": true,
-
+   
     "window.commandCenter": false,
     "workbench.layoutControl.enabled": false,
-    "dev.containers.defaultFeatures": {
+  
+  
     
+    "[html]": {
+      "editor.defaultFormatter": "vscode.html-language-features"
     },
-    "window.zoomLevel": -1,
+    "workbench.iconTheme": "symbols",
+    "[css]": {
+      "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "[javascript]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
     "workbench.colorTheme": "Min Dark",
+
+    "gitlens.advanced.messages": {
+      "suppressLineUncommittedWarning": true
+    },
+
+    "git.openRepositoryInParentFolders": "always",
+    "workbench.settings.applyToAllProfiles": [
+    
+    
+    ],
   }
