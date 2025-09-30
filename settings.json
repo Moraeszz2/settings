@@ -1,150 +1,102 @@
 {
-    "diffEditor.ignoreTrimWhitespace": true,
-    "security.workspace.trust.untrustedFiles": "open",
-    "symbols.hidesExplorerArrows": false,
-    "window.zoomLevel": -1,
-    
-    // Explore
-    "explorer.confirmDelete": false,
-    "explorer.confirmDragAndDrop": false,
-    "explorer.compactFolders": false,
-    "explorer.fileNesting.patterns": {
-      ".env.local": ".env*",
-      ".env": ".env*"
-    },
-  
-  
-    // Terminal 
-    "terminal.integrated.enableMultiLinePasteWarning": false,
-    "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
-    "terminal.integrated.fontSize": 14,
-  
-    // Linguagem
-    "php.validate.executablePath": "C:\\xampp\\php\\php.exe",
-    "go.toolsManagement.autoUpdate": true,
-  
-    // Workbench
-    "workbench.colorCustomizations": {
-      "terminal.background": "#000000",
-      "terminal.foreground": "#D9D8D8",
-      "terminalCursor.background": "#51016b",
-      "terminalCursor.foreground": "#51016b",
-      "terminal.ansiBlack": "#231F20",
-      "terminal.ansiBlue": "#009DDC",
-      "terminal.ansiBrightBlack": "#737171",
-      "terminal.ansiBrightBlue": "#009DDC",
-      "terminal.ansiBrightCyan": "#85CEBC",
-      "terminal.ansiBrightGreen": "#00853E",
-      "terminal.ansiBrightMagenta": "#98005D",
-      "terminal.ansiBrightRed": "#EE2E24",
-      "terminal.ansiBrightWhite": "#51016b",
-      "terminal.ansiBrightYellow": "#51016b",
-      "terminal.ansiCyan": "#85CEBC",
-      "terminal.ansiGreen": "#00853E",
-      "terminal.ansiMagenta": "#98005D",
-      "terminal.ansiRed": "#EE2E24",
-      "terminal.ansiWhite": "#51016b",
-      "terminal.ansiYellow": "#FFD204"
-    },
-    "workbench.startupEditor": "newUntitledFile",
-    "workbench.editorAssociations": {
-      "*.json": "default"
-    },
-    "workbench.editor.empty.hint": "hidden",
-    "workbench.editor.labelFormat": "short",
-    "workbench.colorCustomizations": {
-      "terminal.background":"#000000",
-      "terminal.foreground":"#D9D8D8",
-      "terminalCursor.background":"#51016b",
-      "terminalCursor.foreground":"#51016b",
-      "terminal.ansiBlack":"#231F20",
-      "terminal.ansiBlue":"#009DDC",
-      "terminal.ansiBrightBlack":"#737171",
-      "terminal.ansiBrightBlue":"#009DDC",
-      "terminal.ansiBrightCyan":"#85CEBC",
-      "terminal.ansiBrightGreen":"#00853E",
-      "terminal.ansiBrightMagenta":"#98005D",
-      "terminal.ansiBrightRed":"#EE2E24",
-      "terminal.ansiBrightWhite":"#51016b",
-      "terminal.ansiBrightYellow":"#51016b",
-      "terminal.ansiCyan":"#85CEBC",
-      "terminal.ansiGreen":"#00853E",
-      "terminal.ansiMagenta":"#98005D",
-      "terminal.ansiRed":"#EE2E24",
-      "terminal.ansiWhite":"#51016b",
-      "terminal.ansiYellow":"#FFD204"
-    },
-  
-    // Editor
-    "editor.fontFamily": "JetBrains Mono",
-    "editor.fontSize": 14,
-    "editor.renderLineHighlight": "gutter",
-    "editor.fontLigatures": true,
-    "editor.semanticHighlighting.enabled": false,
-    "editor.minimap.enabled": false,
-    "editor.unicodeHighlight.allowedCharacters": {"﻿": true},
-    "[json]": {"editor.defaultFormatter": "vscode.json-language-features"},
-    
-    // Breads
-    "breadcrumbs.enabled": false,
-  
-    // Background
-    "background.enabled": true,
-    "background.useDefault": false,
-    "background.useFront": false,
-    "background.loop": false,
-    "background.style": {
-      "background-size": "cover",
-      "opacity": 0.1,
-      "position": "absolute",
-      "z-index": "-1",
-      "top": "50%",
-      "left": "50%",
-      "transform": "translate(-50%, -50%)"
-    },
-    "background.customImages": ["file:///C:/Users/gui62/Downloads/solo-leveling-sung.jpg"],
-    
-    // Git
-    "git.enableSmartCommit": true,
-    "diffEditor.ignoreTrimWhitespace": false,
-    "redhat.telemetry.enabled": true,
-    "security.workspace.trust.untrustedFiles": "open",
-    "symbols.hidesExplorerArrows": false,
-    "window.zoomLevel": -1,
-  
-    "git.confirmSync": false,
-    "git.autofetch": true,
-    "git.ignoreRebaseWarning": true,
-  
-    
-    "js/ts.implicitProjectConfig.checkJs": true,
-    "debug.onTaskErrors": "debugAnyway",
-    
-   
-    "window.commandCenter": false,
-    "workbench.layoutControl.enabled": false,
-  
-  
-    
-    "[html]": {
-      "editor.defaultFormatter": "vscode.html-language-features"
-    },
-    "workbench.iconTheme": "symbols",
-    "[css]": {
-      "editor.defaultFormatter": "vscode.css-language-features"
-    },
-    "[javascript]": {
-      "editor.defaultFormatter": "vscode.typescript-language-features"
-    },
-    "workbench.colorTheme": "Min Dark",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "security.workspace.trust.untrustedFiles": "open",
+  "symbols.hidesExplorerArrows": false,
+  "window.zoomLevel": -1,
 
-    "gitlens.advanced.messages": {
-      "suppressLineUncommittedWarning": true
-    },
+  // Explorer
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.compactFolders": false,
+  "explorer.fileNesting.patterns": {
+    ".env.local": ".env*",
+    ".env": ".env*"
+  },
 
-    "git.openRepositoryInParentFolders": "always",
-    "workbench.settings.applyToAllProfiles": [
-    
-    
-    ],
-  }
+  // Terminal
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+  "terminal.integrated.fontSize": 14,
+
+  // Linguagem
+  "php.validate.executablePath": "C:\\xampp\\php\\php.exe",
+  "go.toolsManagement.autoUpdate": true,
+
+  // Workbench
+  "workbench.colorCustomizations": {
+    "terminal.background": "#000000",
+    "terminal.foreground": "#D9D8D8",
+    "terminalCursor.background": "#51016b",
+    "terminalCursor.foreground": "#51016b",
+    "terminal.ansiBlack": "#231F20",
+    "terminal.ansiBlue": "#009DDC",
+    "terminal.ansiBrightBlack": "#737171",
+    "terminal.ansiBrightBlue": "#009DDC",
+    "terminal.ansiBrightCyan": "#85CEBC",
+    "terminal.ansiBrightGreen": "#00853E",
+    "terminal.ansiBrightMagenta": "#98005D",
+    "terminal.ansiBrightRed": "#EE2E24",
+    "terminal.ansiBrightWhite": "#51016b",
+    "terminal.ansiBrightYellow": "#51016b",
+    "terminal.ansiCyan": "#85CEBC",
+    "terminal.ansiGreen": "#00853E",
+    "terminal.ansiMagenta": "#98005D",
+    "terminal.ansiRed": "#EE2E24",
+    "terminal.ansiWhite": "#51016b",
+    "terminal.ansiYellow": "#FFD204"
+  },
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.editorAssociations": {
+    "*.json": "default"
+  },
+  "workbench.editor.empty.hint": "hidden",
+  "workbench.editor.labelFormat": "short",
+  "workbench.iconTheme": "symbols",
+  "workbench.colorTheme": "Min Dark",
+  "workbench.layoutControl.enabled": false,
+  "workbench.settings.applyToAllProfiles": [],
+
+  // Editor
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontSize": 14,
+  "editor.renderLineHighlight": "gutter",
+  "editor.fontLigatures": true,
+  "editor.semanticHighlighting.enabled": false,
+  "editor.minimap.enabled": false,
+  "editor.unicodeHighlight.allowedCharacters": { "﻿": true },
+
+  // Formatters
+  "[json]": { "editor.defaultFormatter": "vscode.json-language-features" },
+  "[html]": { "editor.defaultFormatter": "vscode.html-language-features" },
+  "[css]": { "editor.defaultFormatter": "vscode.css-language-features" },
+  "[javascript]": { "editor.defaultFormatter": "vscode.typescript-language-features" },
+
+  // Breadcrumbs
+  "breadcrumbs.enabled": false,
+
+  // Background
+  "background.fullscreen": {
+    "images": ["https://files.passeidireto.com/6a0640ab-ceea-4efa-b295-3fa46a9608f4/6a0640ab-ceea-4efa-b295-3fa46a9608f4.jpeg"],
+    "opacity": 0.1,
+    "size": "cover",
+    "position": "center",
+    "interval": 0,
+    "random": false
+  },
+
+  // Git
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "git.autofetch": true,
+  "git.ignoreRebaseWarning": true,
+  "git.openRepositoryInParentFolders": "always",
+
+  // JS/TS
+  "js/ts.implicitProjectConfig.checkJs": true,
+
+  // Debug
+  "debug.onTaskErrors": "debugAnyway",
+
+  // Window
+  "window.commandCenter": false
+}
